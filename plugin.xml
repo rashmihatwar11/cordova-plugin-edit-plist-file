@@ -44,7 +44,19 @@
         </dict>
       </array>
     </config-file>
+	    
+       <platform name="ios">
         
+        <!-- iOS9 whitelisting -->
+        <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+            <array>
+                <string>PBAuthApp</string>
+            </array>
+        </config-file>
+        
+        
+        
+    </platform> 
         
         
     </platform>
